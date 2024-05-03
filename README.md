@@ -1,9 +1,9 @@
-FEC project [Mode all layered RC vehicle]<!DOCTYPE html>
+FEC project [Mode all layered RC vehicle]
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Autonomous Obstacle-Avoiding Robot</title>
 </head>
 <body>
   <h1>Autonomous Obstacle-Avoiding Robot with Fog, Edge, and Cloud Computing</h1>

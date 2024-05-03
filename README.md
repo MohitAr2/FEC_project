@@ -52,18 +52,6 @@ FEC project [Mode all layered RC vehicle]
     <li>Experiment with different scenarios to test the robot's performance.</li>
   </ol>
 
-  <h2>Contributors</h2>
-  <ul>
-    <li>Patnaikuni Mohit [22BCE1663]</li>
-    <li>Divya S [22BCE1307]</li>
-    <li>Rishi Kumar [22BCE1913]</li>
-  </ul>
-
-  <h2>References</h2>
-  <ul>
-    <li><a href="#">Documentation sources</a> (add links to relevant documentation sources)</li>
-  </ul>
-
   <h2>License</h2>
   <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 </body>

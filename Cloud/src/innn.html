@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        const x = document.getElementById("I1");
+        const y = document.getElementById("I2");
+        function high_or_low(){
+            if(x > y){
+                alert("Image 1 is higher");
+            }
+            else if(x < y){
+                alert("Image 2 is higher");
+            }
+            else{
+                alert("Both images are of same height");
+            }
+        }
+        </script>
+        <style>
+            *{
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+            body{
+                background-image: linear-gradient(45deg,#DAD299,#B0DAB9);
+                margin: 0;
+                height: 100vh;
+                width:100wh;
+                display: flex;
+            }
+    </style>
+<head>
+    <title> 
+        Demo
+    </title>
+<body>
+        <div class="left" style="height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;border: 7px solid black;
+        overflow-x: hidden;
+        padding-top: 20px;left:0;display:flex;">
+<img id = "I1" src="./img1.jpeg" onclick="high_or_low();"/>
+            </div>
+        <div class="right" style="height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;border: 7px solid black;
+        padding-top: 20px;right:0;display:flex;">
+            <img id = "I2" src="./img2.jpeg" onclick="high_or_low()"/>
+            </div>
+            <button onclick="high_or_low()" class="box" style="height: auto;width:auto;z-index: 5;;border:3px solid;display:flex ;">🆙</button>
+            <button onclick="high_or_low()" class="box" style="z-index: 5;;border:3px solid;display:flex ;">🔽</button>
+</body>
+<footer>
+    copyrights
+
+</footer>
+</html>
